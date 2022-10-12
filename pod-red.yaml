@@ -1,7 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: mes-couilles-sur-ton-nez
+  name: simple-webapp-color-blue
+  labels:
+    app: web
 spec:
   containers:
     - name: simple-webapp-color
