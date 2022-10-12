@@ -20,7 +20,7 @@ Tips KUB AutoCompletion
 ## InGress
 Mecanisme qui fait le lien entre l'urlet le service de type Cluster IP  
 Il s'appuie sur des ingress rules  
-IngressController : Firewall a la porte des namespace
+IngressController : Firewall a la porte des namespace  
 Permet de faire du reverseProxy en se basant sur le contest http://<url>/toto et http://<url>/titi
 
 https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/  
