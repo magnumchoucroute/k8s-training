@@ -5,3 +5,4 @@ metadata:
 
 # kubectl get namespace
 # k get ns 
+# k get all -n default // pour connaitre les ressources sous le namespace
