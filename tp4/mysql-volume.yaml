@@ -18,7 +18,10 @@ spec:
         value: eazytraining
       - name: MYSQL_USER
         value: eazy
-      - name: MYSQL_USER
+      - name: MYSQL_PASSWORD
         value: eazy
   volumes:
   - name: mysql-data
+    hostPath:
+      path: /data-volume
+      type: Directory
