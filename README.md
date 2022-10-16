@@ -26,7 +26,10 @@ Permet de faire du reverseProxy en se basant sur le contest http://<url>/toto et
 https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/  
 
 https://kubernetes.github.io/ingress-nginx/deploy/#provider-specific-steps  
-
+```
+k get ingress
+ ```
+  
   
 ## Creation d'un namespace
 ```
