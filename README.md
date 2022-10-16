@@ -30,8 +30,10 @@ https://kubernetes.github.io/ingress-nginx/deploy/#provider-specific-steps
   
 ## Creation d'un namespace
 ```
-  k get ns 
-  k get namespace
-  
+k get ns 
+k get namespace
+k get ns 
+k get all -n default // pour connaitre les ressources sous le namespace
+
   ```
   
