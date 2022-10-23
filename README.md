@@ -39,4 +39,23 @@ k get ns
 k get all -n default // pour connaitre les ressources sous le namespace
 
   ```
-  
+
+## Different type de service 
+```
+Service de typ NodePort : 
+Permet d'exposer son pod à l'exterieur du cluster 
+3 ports : 
+  - NodePort : le port dispoiniblle deouis l'exterieur , le port du node
+  - Port : le port interne qui pourra etre utiliser par les applications à l'interieur du namespace
+  - TargetPort : le port cible, le port exposé par le container
+ 
+ Service de typeCLusterIP :
+ Permet d'exposer son appliation uniquement à l'interieur du cluster.
+ 2 ports : 
+  - Port : le port interne qui pourra etre utiliser par les applications à l'interieur du namespace
+  - TargetPort : le port cible, le port exposé par le container
+ 
+ Service de type LoadBalancer 
+ Service pour associer le service a un loadbalancer provider 
+ 
+  ```
