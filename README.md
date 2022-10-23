@@ -45,7 +45,7 @@ k get all -n default // pour connaitre les ressources sous le namespace
 Service de typ NodePort : 
 Permet d'exposer son pod à l'exterieur du cluster 
 3 ports : 
-  - NodePort : le port dispoiniblle deouis l'exterieur , le port du node
+  - NodePort : le port disponible deouis l'exterieur , le port du node , valeur comprise entre 3000 et 32000
   - Port : le port interne qui pourra etre utiliser par les applications à l'interieur du namespace
   - TargetPort : le port cible, le port exposé par le container
  
