@@ -59,3 +59,6 @@ Permet d'exposer son pod à l'exterieur du cluster
  Service pour associer le service a un loadbalancer provider 
  
   ```
+## Voir les logs lors d'un probleme 
+Regare au niveua des logs du container : ```kubectl logs container```
+Regarder au niveau des evenements :  ```kubectl get events --all-namespaces  --sort-by='.metadata.creationTimestamp'```
